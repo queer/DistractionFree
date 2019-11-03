@@ -428,8 +428,8 @@
       return checkbox;
     }, function(checkbox) {
     // For some reason this is the only way to make it work
-      uncheckMenuItem(checkbox);
-      uncheckMenuItem(checkbox);
+      // uncheckMenuItem(checkbox);
+      // uncheckMenuItem(checkbox);
       document.body.classList.add("df-enabled");
       document.body.appendChild(_menuButtonElement);
       document.body.appendChild(_menu);
